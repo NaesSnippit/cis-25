@@ -1,1 +1,53 @@
+Student Project – Scope of Work (SOW)
 
+Project Title: Hospital Patient Management System
+
+Student Name: Monet Montgomery
+
+Date: July 16, 2026
+
+1. Project Overview
+
+The Hospital Patient Management System is a C++ application that allows hospital staff to manage patient records efficiently. Users will be able to add, search, update, display, and save patient information using a menu-driven program. Patient records will be stored in a text file so the data remains available even after the program is closed.
+
+2. Features
+Add new patient records
+Display all patient records
+Search for a patient by Patient ID
+Update existing patient information
+Delete a patient record
+Save patient records to a file
+Load patient records from a file when the program starts
+Menu-driven interface for easy navigation
+Input validation for user entries
+3. Data to Store
+
+Each patient record will include:
+
+Patient ID
+Patient Name
+Age
+Gender
+Diagnosis
+
+All records will be saved in a text file named patients.txt.
+
+4. Programming Concepts
+
+The project will demonstrate the following C++ concepts:
+
+Structures (struct)
+Arrays or dynamic arrays
+Functions
+File input/output (fstream)
+Pointers
+Searching (Binary Search)
+Sorting patient records by ID
+Loops and conditional statements
+5. Long-Term Data Storage
+
+The application will use a text file (patients.txt) to permanently store patient records. When the program starts, it will automatically load any existing patient data from the file. When changes are made, the updated information will be saved back to the file so no data is lost after exiting the program.
+
+6. Expected Outcome
+
+The completed application will provide a simple and organized way to manage hospital patient information. Users will be able to maintain patient records efficiently through an easy-to-use menu while ensuring that all information is stored permanently between program sessions.
