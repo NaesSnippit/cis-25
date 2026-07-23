@@ -1,0 +1,59 @@
+HALF-MOON HOLD 'EM - VERIFIED DEMONSTRATION
+Command: ./half_moon_holdem --demo --seed 20260722 --data-dir demo_data
+
+============================================================
+  NEW HAND
+============================================================
+Dealer button: Demo Player
+Demo Player posts the small blind (5). The House posts 10.
+Pot: 15 | Balance: 495
+
+Demo Player's hole cards: [10-C] [Ace-C]
+
+============================================================
+  FLOP
+============================================================
+Revealed: 8 of Purple Spades
+Revealed: Ace of Purple Spades
+Revealed: Duchess of Red Hearts
+
+============================================================
+  TURN
+============================================================
+Revealed: Ace of Red Hearts
+
+============================================================
+  RIVER
+============================================================
+Revealed: 3 of Red Hearts
+
+============================================================
+  SHOWDOWN
+============================================================
+Demo Player: Three of a Kind
+The House: One Pair
+
+RESULT: WIN
+Wagered: 35 | Payout: 75 | New balance: 540
+Three of a Kind defeated One Pair
+
+---------------------- PLAYER PROFILE ----------------------
+Name: Demo Player
+Balance: 540 chips
+Games: 1 | Wins: 1 | Losses: 0 | Ties: 0
+Win rate: 100.0%
+
+==================== RECENT GAME HISTORY ====================
+2026-07-22 | WIN | wager 35 | payout 75 | balance 540
+Three of a Kind defeated One Pair
+
+AUTOMATED SELF-TEST OUTPUT
+Command: ./half_moon_holdem --self-test
+
+[PASS] Deck contains exactly 66 cards
+[PASS] Deck contains two Jokers
+[PASS] Deck contains twelve specialty cards
+[PASS] Every suited card is unique
+[PASS] Royal flush evaluator
+[PASS] Ace adjusts from 11 to 1 under the 31 cap
+All self-tests passed.

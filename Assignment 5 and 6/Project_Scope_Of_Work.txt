@@ -1,0 +1,53 @@
+STUDENT PROJECT - SCOPE OF WORK
+
+Project Title: Half-Moon Hold 'Em
+Student Name: Monet Montgomery
+Date: July 22, 2026
+
+1. PROJECT OVERVIEW
+
+Half-Moon Hold 'Em is a C++17 terminal card game that lets one human player compete against a computer-controlled House opponent. The application combines Texas Hold 'Em with a custom 66-card deck, dangerous specialty effects, immediate Joker consequences, and a blackjack-inspired “Hit me” decision while saving player progress between sessions.
+
+2. PURPOSE AND PROBLEM
+
+The application provides a replayable strategy game while demonstrating how a C++ program can preserve information after it closes. It solves the problem of temporary game sessions by saving each player's chip balance, results, special decisions, and detailed game history in CSV files that are loaded again on the next run.
+
+3. PLANNED FEATURES
+
+- Create, select, search, rename, and delete player profiles.
+- Save and retrieve balances, wins, losses, ties, folds, Hits, busts, and Joker losses.
+- Save a timestamped history of completed and dead hands.
+- Build and shuffle the full 66-card Half-Moon deck.
+- Rotate the dealer and post small and big blinds.
+- Deal hole and community cards through Flop, Turn, and River stages.
+- Offer validated betting choices against a computer opponent.
+- Resolve Duke, Duchess, and Reaper effects in order.
+- Enforce private and community Joker rules.
+- Offer the optional Hit and enforce its 31-point hand limit.
+- Evaluate the best five-card hand from every legal combination.
+- Search records and sort a leaderboard.
+- Include a Rules screen, automated self-tests, and deterministic demo mode.
+
+4. LONG-TERM DATA STORAGE
+
+The program uses two CSV files. players.csv stores the current version of each profile and is read when the program starts. game_history.csv stores an append-only record of hands with timestamps, wagers, payouts, ending balances, and a short explanation of each outcome.
+
+5. ORIGINAL FEATURE
+
+The original twist is the collision of poker and risk-management mechanics. Players must judge poker strength, specialty-card consequences, Joker probability, betting pressure, and whether an extra hole card is worth accepting a 31-point limit.
+
+6. TECHNOLOGIES AND PROGRAMMING CONCEPTS
+
+C++17, classes and objects, vectors, enums, maps, sets, loops, functions, random shuffling, recursion-free combination search, file input/output, filesystem operations, exception handling, CSV parsing, sorting, searching, and input validation.
+
+7. DELIVERABLES
+
+- Compilable C++ source code
+- Labeled data folder and starter CSV files
+- Makefile and build instructions
+- Automated test and deterministic demo modes
+- README documentation
+- AI-in-C++ response TXT
+- Google Slides-compatible presentation
+- Canvas submission-links TXT template
+
